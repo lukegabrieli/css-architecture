@@ -1,0 +1,7 @@
+article:nth-child(2n+1) {
+  background-color: #F3F4E5;
+}
+
+article:nth-child(2n) {
+  background-color: #E2E3D9;
+}
