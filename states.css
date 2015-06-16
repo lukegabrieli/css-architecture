@@ -1,7 +1,7 @@
-article:nth-child(2n+1) {
+article:nth-child(odd) {
   background-color: #F3F4E5;
 }
 
-article:nth-child(2n) {
+article:nth-child(even) {
   background-color: #E2E3D9;
 }
