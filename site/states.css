@@ -1,0 +1,9 @@
+.socialLink:hover, .navLink:hover {
+  color: #b3d2fb;
+}
+
+.contactLink:hover, .buyButton:hover {
+  background-color: #df4931;
+  color: white;
+  cursor: pointer;
+}

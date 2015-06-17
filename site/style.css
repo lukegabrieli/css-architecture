@@ -1,0 +1,95 @@
+/* HEADER */
+
+.mainHeader {
+  background-color: #df4931;
+  text-align: center;
+  height: 150px;
+  font-family: "Fairview Regular";
+  color: white;
+  text-decoration: none;
+  padding: 1px;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.navLink {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* PAGE CONTENT */
+
+img {
+  width: 100%;
+}
+
+.homeImage {
+  text-align: center;
+  background-color: #df4931;
+}
+
+figcaption {
+  color: white;
+  padding: 10px;
+  letter-spacing: 1.4px;
+}
+
+#map {
+  height: 300px;
+}
+
+.contactLink, .buyButton {
+  text-align: center;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid #df4931;
+  color: #df4931;
+  text-decoration: none;
+  font-family: "Slabo Regular";
+  font-size: 20px;
+}
+
+.aboutBox {
+  font-size: 19px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+input:not(.card) {
+  width: 100%;
+}
+
+.buyShit {
+  font-size: 20px;
+}
+
+fieldset > legend {
+  text-align: center;
+}
+
+select {
+  width: 100%;
+}
+
+/* FOOTER */
+
+.mainFooter {
+  height: 100px;
+  background-color: #df4931;
+  text-align: center;
+  color: white;
+  padding: 1px;
+}
+
+.socialLink {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+
