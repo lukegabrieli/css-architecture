@@ -1,3 +1,3 @@
-# css-architecture
+# layout
 
 by Luke Gabrieli!!
