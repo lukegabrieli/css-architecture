@@ -1,7 +1,7 @@
 article:nth-child(odd) {
-  background-color: #F3F4E5;
+  border: 2px solid #df4931;
 }
 
 article:nth-child(even) {
-  background-color: #E2E3D9;
+  border: 2px solid #df4931;
 }
