@@ -1,32 +1,39 @@
 /* HEADER */
 
-.mainHeader {
+.main_header {
   background-color: #df4931;
+  height: 80px;
   text-align: center;
-  height: 150px;
   font-family: "Fairview Regular";
   color: white;
   text-decoration: none;
-  padding: 1px;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 2.618em;
 }
 
-.navLink {
+.icon-cogs {
+  font-size: .7em;
+}
+
+.nav_link {
   color: white;
-  font-size: 25px;
+  font-size: 1.414em;
   text-decoration: none;
 }
 
 /* PAGE CONTENT */
 
+.center_text {
+  text-align: center;
+}
+
 img {
   width: 100%;
 }
 
-.homeImage {
+.home_image {
   text-align: center;
   background-color: #df4931;
 }
@@ -34,14 +41,41 @@ img {
 figcaption {
   color: white;
   padding: 10px;
-  letter-spacing: 1.4px;
+  letter-spacing: .1em;
 }
 
-#map {
-  height: 300px;
+input:not(.card):not(.buy_button) {
+  width: 97%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
 }
 
-.contactLink, .buyButton {
+.buy_shit_text {
+  font-size: 20px;
+}
+
+fieldset {
+  padding: 2%;
+  color: white;
+}
+
+form > fieldset {
+  background-color: #FF6952;
+}
+
+fieldset > p {
+  text-transform: uppercase;
+}
+
+select {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.about_link, .buy_button {
   text-align: center;
   padding: 15px;
   background-color: white;
@@ -52,44 +86,51 @@ figcaption {
   font-size: 20px;
 }
 
-.aboutBox {
+.about_content {
   font-size: 19px;
 }
 
-.centerText {
-  text-align: center;
-}
-
-input:not(.card) {
-  width: 100%;
-}
-
-.buyShit {
-  font-size: 20px;
-}
-
-fieldset > legend {
-  text-align: center;
-}
-
-select {
-  width: 100%;
+#map {
+  height: 300px;
 }
 
 /* FOOTER */
 
-.mainFooter {
-  height: 100px;
+.main_footer {
+  height: 70px;
   background-color: #df4931;
   text-align: center;
   color: white;
   padding: 1px;
 }
 
-.socialLink {
+.social_link {
   color: white;
   font-size: 28px;
   text-decoration: none;
+  margin-top: 10px;
+}
+
+@media (min-width: 400px) {
+  .main_header {
+    height: 140px;
+  }
+
+  h1 {
+    font-size: 4.236em;
+  }
+
+  .icon-cogs {
+    font-size: .7em;
+  }
+
+  .nav_link {
+    font-size: 1.618em;
+  }
+
+  .main_footer {
+    height: 100px;
+  }
 }
 
 
