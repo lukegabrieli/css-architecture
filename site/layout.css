@@ -25,11 +25,21 @@
   box-sizing: border-box;
 }
 
+.caption {
+  margin-top: -6px;
+  margin-bottom: 10px;
+}
+
+.box {
+  margin-top: 15px;
+}
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; }
+    padding: 0;
+  }
 }
 
 /* For devices larger than 550px */
@@ -101,11 +111,25 @@
 /* Header */
 
 .flex_container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display:flex;
+  -moz-box-orient:vertical;
+  -moz-box-pack: center;
+  -moz-box-align: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -webkit-align-content: flex-start;
+  -moz-align-content: flex-start;
+  -ms-align-content: flex-start;
   align-content: flex-start;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
   align-items: center;
 }
 
@@ -120,11 +144,6 @@
 }
 
 /* Main Page */
-
-.home_image {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 .about_content, .about_link{
   margin-top: 20px;

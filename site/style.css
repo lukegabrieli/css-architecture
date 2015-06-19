@@ -21,9 +21,37 @@ h1 {
   color: white;
   font-size: 1.414em;
   text-decoration: none;
+  transition: color .2s linear;
 }
 
 /* PAGE CONTENT */
+
+.home_fourcolumn {
+  font-size: 7vw;
+}
+
+.home_threecolumn {
+  font-size: 7vw;
+}
+
+.home_twocolumn {
+  font-size: 7vw;
+}
+
+.home_onecolumn {
+  font-size: 7vw;
+}
+
+.price{
+  display: none;
+}
+
+.caption {
+  background-color: #df4931;
+  color: white;
+  text-align: center;
+  padding: 6px;
+}
 
 .center_text {
   text-align: center;
@@ -31,17 +59,6 @@ h1 {
 
 img {
   width: 100%;
-}
-
-.home_image {
-  text-align: center;
-  background-color: #df4931;
-}
-
-figcaption {
-  color: white;
-  padding: 10px;
-  letter-spacing: .1em;
 }
 
 input:not(.card):not(.buy_button) {
@@ -52,7 +69,7 @@ input:not(.card):not(.buy_button) {
 }
 
 .buy_shit_text {
-  font-size: 20px;
+  font-size: 1.414em;
 }
 
 fieldset {
@@ -83,11 +100,12 @@ select {
   color: #df4931;
   text-decoration: none;
   font-family: "Slabo Regular";
-  font-size: 20px;
+  font-size: 1.414em;
+  transition: background-color .2s linear, color .2s linear;
 }
 
 .about_content {
-  font-size: 19px;
+  font-size: 1em;
 }
 
 #map {
@@ -106,9 +124,10 @@ select {
 
 .social_link {
   color: white;
-  font-size: 28px;
+  font-size: 1.414em;
   text-decoration: none;
   margin-top: 10px;
+  transition: color .2s linear;
 }
 
 @media (min-width: 400px) {
@@ -132,5 +151,25 @@ select {
     height: 100px;
   }
 }
+
+@media (min-width: 550px) {
+  .home_fourcolumn {
+    font-size: 2vw;
+  }
+
+  .home_threecolumn {
+    font-size: 3vw;
+  }
+
+  .home_twocolumn {
+    font-size: 4vw;
+  }
+
+  .home_onecolumn {
+    font-size: 7vw;
+  }
+
+}
+
 
 
