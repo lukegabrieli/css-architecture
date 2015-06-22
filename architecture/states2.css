@@ -1,7 +1,0 @@
-article:nth-child(odd) {
-  border: 2px solid #df4931;
-}
-
-article:nth-child(even) {
-  border: 2px solid #df4931;
-}
