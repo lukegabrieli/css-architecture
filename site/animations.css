@@ -25,6 +25,8 @@
 
 /* ---TITLE BOUNCE IN--- */
 
+/*https://daneden.github.io/animate.css/*/
+
 .heading {
   -webkit-animation: bounceInDown 1s linear;
   animation: bounceInDown 1s linear;
