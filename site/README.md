@@ -1,3 +1,3 @@
-# css-architecture
+# coolstuff
 
 by Luke Gabrieli!!

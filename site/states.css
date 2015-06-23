@@ -1,0 +1,13 @@
+.social_link:hover, .nav_link:hover {
+  color: #31DF91;
+}
+
+.about_link:hover, .buy_button:hover {
+  background-color: #df4931;
+  color: white;
+  cursor: pointer;
+}
+
+.active {
+  color: #31DF91;
+}
