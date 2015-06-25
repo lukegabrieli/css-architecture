@@ -1,4 +1,14 @@
-/* HEADER */
+/* ---GENERAL--- */
+
+.center_text {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+/* ---HEADER--- */
 
 .main_header {
   background-color: #df4931;
@@ -24,7 +34,9 @@ h1 {
   transition: color .2s linear;
 }
 
-/* PAGE CONTENT */
+/* ---MAIN PAGES--- */
+
+/* ---LOOK--- */
 
 .home_fourcolumn {
   font-size: 7vw;
@@ -53,13 +65,7 @@ h1 {
   padding: 6px;
 }
 
-.center_text {
-  text-align: center;
-}
-
-img {
-  width: 100%;
-}
+/* ---BUY--- */
 
 input:not(.card):not(.buy_button) {
   width: 97%;
@@ -92,6 +98,8 @@ select {
   border-radius: 5px;
 }
 
+/* ---ABOUT--- */
+
 .about_link, .buy_button {
   text-align: center;
   padding: 15px;
@@ -112,7 +120,25 @@ select {
   height: 300px;
 }
 
-/* FOOTER */
+/* ---VIDEO--- */
+
+#play_pause {
+  display: none;
+}
+
+.muted, .fullscreen {
+  display: none;
+}
+
+.progress_bar {
+  display: none;
+}
+
+video {
+  width: 100%;
+}
+
+/* ---FOOTER--- */
 
 .main_footer {
   height: 70px;
@@ -150,6 +176,80 @@ select {
   .main_footer {
     height: 100px;
   }
+
+  /*---VIDEO---*/
+
+  .video_player {
+    position: relative;
+  }
+
+  #play_pause {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .icon-play2 {
+    font-size: 4em;
+    color: #df4931;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(1px 1px 4px black);
+    filter: drop-shadow(1px 1px 4px black);
+  }
+
+  .icon-pause {
+    font-size: 4em;
+    color: #df4931;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(1px 1px 4px black);
+    filter: drop-shadow(1px 1px 4px black);
+  }
+
+  .muted, .fullscreen {
+    color: #df4931;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #E3DDEC;
+    width: 23%;
+    padding: 1% 0;
+    font-size: 1em;
+    box-shadow: 0 0 6px black;
+  }
+
+  .muted {
+    left: 25%;
+  }
+
+  .fullscreen {
+    left: 75%;
+  }
+
+  .muted_border {
+    background-color: #df4931;
+    color: #E3DDEC;
+  }
+
+  .progress_bar {
+    position: relative;
+    width: 100%;
+    height:20px;
+    background-color: #E3DDEC;
+    margin-top: -1%;
+  }
+
+  .current_progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #df4931;
+  }
 }
 
 @media (min-width: 550px) {
@@ -170,6 +270,5 @@ select {
   }
 
 }
-
 
 
