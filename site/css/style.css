@@ -138,6 +138,39 @@ video {
   width: 100%;
 }
 
+/* ---PHOTO--- */
+
+.show_stuff {
+  text-align: center;
+}
+
+.photo_form {
+  background-color: #FF6952;
+  color: white;
+  font-size: 1.414em;
+}
+
+#submit {
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #df4931;
+  color: #df4931;
+  text-decoration: none;
+  font-family: "Slabo Regular";
+  font-size: 1.414em;
+  height: auto;
+  width: 50%;
+  border-radius: 0;
+  transition: background-color .2s linear, color .2s linear;
+}
+
+.flickr_photo {
+  width: 60%;
+  padding: 5% 10%;
+  background-color: #FF6952;
+}
+
 /* ---FOOTER--- */
 
 .main_footer {
@@ -271,5 +304,6 @@ video {
   }
 
 }
+
 
 

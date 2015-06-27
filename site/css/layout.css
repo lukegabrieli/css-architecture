@@ -194,6 +194,20 @@ select {
   display: inline-block;
 }
 
+/* ---PHOTO--- */
+
+.photo_form {
+  margin: 15px 0 10px 0;
+}
+
+.flickr_photo {
+  margin: 6% 0 1% 0;
+}
+
+#submit {
+  margin: 10px 0 15px 0;
+}
+
 /* Footer */
 
 .main_footer {

@@ -2,7 +2,7 @@
   color: #31DF91;
 }
 
-.about_link:hover, .buy_button:hover {
+.about_link:hover, .buy_button:hover, #submit:hover {
   background-color: #df4931;
   color: white;
   cursor: pointer;
