@@ -10,7 +10,7 @@
 
 /* Skeleton Grid */
 
-/* For Mobile */
+/* ---FOR MOBILE--- */
 .container {
   position: relative;
   width: 100%;
@@ -34,7 +34,7 @@
   margin-top: 15px;
 }
 
-/* For devices larger than 400px */
+/* ---FOR DEVICES > 400px--- */
 @media (min-width: 400px) {
   .container {
     width: 85%;
@@ -42,7 +42,7 @@
   }
 }
 
-/* For devices larger than 550px */
+/* ---FOR DEVICES > 550px--- */
 @media (min-width: 550px) {
   .container {
     width: 80%; }
@@ -106,9 +106,9 @@
 
 }
 
-/* Additional Styles */
+/* ---ADDITIONAL STYLES--- */
 
-/* Header */
+/* ---HEADER--- */
 
 .flex_container {
   display: -webkit-flex;
@@ -143,12 +143,11 @@
   margin-right: 15px;
 }
 
-/* Main Page */
+/* ---MAIN PAGES--- */
 
-.about_content, .about_link{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+/* ---LOOK--- */
+
+/* ---BUY--- */
 
 fieldset {
   margin: 15px 0;
@@ -170,12 +169,43 @@ select {
   margin-bottom: 20px;
 }
 
+.buy_stuff_text {
+  margin-top: 10px;
+}
+
+/* ---ABOUT--- */
+
+.about_content, .about_link{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .about_content > p {
   margin-bottom: 15px;
 }
 
-.buy_stuff_text {
-  margin-top: 10px;
+/* ---VIDEO--- */
+
+.video_player {
+  margin: 20px 0;
+}
+
+.muted, .fullscreen {
+  display: inline-block;
+}
+
+/* ---PHOTO--- */
+
+.photo_form {
+  margin: 15px 0 10px 0;
+}
+
+.flickr_photo {
+  margin: 6% 0 1% 0;
+}
+
+#submit {
+  margin: 10px 0 15px 0;
 }
 
 /* Footer */
